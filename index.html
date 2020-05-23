@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="overlay js-overlay-campaign">
+		<div class="popup js-popup-campaign">
+            <h1 class="modal_window_title">Залишити заявку</h1>
+            <p class="modal_window_text">Будь-ласка, залиште ваші контакти, ми зв'яжемося з вами найближчим часом.</p>
+            <form class="modal_window_form" action="">
+                <input class="modal_window_name" type="text" placeholder="Ім'я">
+                <input class="modal_window_phone" type="text" placeholder="Телефон">
+                <button class="modal_window_button">Передзвоніть мені</button>
+            </form>
+			<div class="close-popup js-close-campaign"></div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script/script.js"></script>
 </body>
 </html>
