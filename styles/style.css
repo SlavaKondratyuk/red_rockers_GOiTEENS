@@ -1,22 +1,72 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+*{
+    margin: 0;
 }
-
-html, body, ul, ol, li, form, fieldset, legend {
-  margin: 0;
-  padding: 0;
+.img_text{
+    position: relative;
+    width: 100%;
 }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin-top: 0;
+.p123{
+    position: absolute;
+    top:104px;
+    width: 280px;
+    height: 528px;
+    left: 20px;
+    font-family: Roboto;
+    font-weight: 1000;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    font-style: normal;
 }
-
-fieldset, img {
-  border: 0;
+.textmain{
+    position: absolute;
+    width: 280px;
+    height: 28px;
+    left: 20px;
+    top: 50px; 
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #D2AC47;
 }
-
-li {
-  list-style: none;
+.colortext{
+    color: #D2AC47
+}
+.secondcont{
+    position: absolute;
+    width: 280px;
+    height: 971px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+.lineyellow{
+    position: absolute;
+    width: 72px;
+    height: 2.47px;
+    left: 20px;
+    top: 56px;
+    background: #D2AC47;
+    border-radius: 2px;
+}
+.plaintext{
+    position: absolute;
+    width: 280px;
+    height: 971px;
+    left: 20px;
+    top: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
