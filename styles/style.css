@@ -20,3 +20,51 @@ fieldset, img {
 li {
   list-style: none;
 }
+/*Maxym Dorosh start style*/
+.add{
+position: absolute;
+width: 114px;
+height: 26px;
+left: 174px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.05em;
+position: absolute;
+top: 500px;
+
+background: #D2AC47;
+
+box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
+
+color: #FFFFFF;
+}
+
+.image{
+  position: absolute;
+  width: 410px;
+  height: 542px;
+  left: 728px;
+  background: url(Rectangle 2.png);  
+
+}
+.tekst{
+position: absolute;
+width: 482px;
+height: 344px;
+left: 143px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.02em;
+color: #757575;
+
+}
+/*Maxym Dorosh end slyle*/
+
+
