@@ -469,8 +469,16 @@ color: #757575;
   .text_manzel{
     display: none;
   }
+
+  .manzel_text_stick{
+    margin-top: 15px;
+  }
   .manzel_stick{
     display: none;
+  }
+  .manzel_text{
+    margin-top: 20px;
+    width: 500px;
   }
   .manzel_text1 {
     display: block;
