@@ -1,72 +1,210 @@
 *{
     margin: 0;
 }
-.img_text{
+.imgtext_m{
     position: relative;
-    width: 100%;
+    width: 320px;
+    height: 688px;
+    background-image:url(file:///C:/Users/alloy/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/red_rockers_GOiTEENS/images/mobile/img_2.png);
 }
-.p123{
+.title_m{
     position: absolute;
-    top:104px;
+    color: #D2AC47;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    width: 280px;
+    height: 28px;
+    left: 20px;
+    top: 56px;
+}
+.plaintxt_m{
+    position: absolute;
     width: 280px;
     height: 528px;
     left: 20px;
-    font-family: Roboto;
-    font-weight: 1000;
+    top: 96px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 540;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    font-style: normal;
 }
-.textmain{
-    position: absolute;
-    width: 280px;
-    height: 28px;
-    left: 20px;
-    top: 50px; 
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
+.colortxt_m{
     color: #D2AC47;
 }
-.colortext{
-    color: #D2AC47
+.line_m{
+    position: absolute;
+    width: 72px;
+    height: 2.47px;
+    left: 20px;
+    top: 90%;
+    background: #D2AC47;
+    border-radius: 2px; 
 }
-.secondcont{
+.graytxt_m{
     position: absolute;
     width: 280px;
     height: 971px;
-    font-family: Roboto;
+    left: 20px;
+    top: 93%;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
     letter-spacing: 0.02em;
+    color: #757575;  
 }
-.lineyellow{
+@media only screen and (min-width: 768px) {
+    *{
+        margin: 0;
+    }
+    .imgtext_m{
+    width: 688px;
+    height: 423px;
+    background-image: url(file:///C:/Users/alloy/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/red_rockers_GOiTEENS/images/tablet/img_2.png);
+    /* background-position:center = center center = 50% 50%;
+    background-repeat: no-repeat; */
+    }  
+    .title_m{
     position: absolute;
-    width: 72px;
-    height: 2.47px;
-    left: 20px;
-    top: 56px;
-    background: #D2AC47;
-    border-radius: 2px;
-}
-.plaintext{
-    position: absolute;
-    width: 280px;
-    height: 971px;
-    left: 20px;
-    top: 75px;
-    font-family: 'Open Sans', sans-serif;
+    width: 628px;
+    height: 42px;
+    left: 96px;
+    top: 65px;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #D2AC47;
+    }
+    .plaintxt_m{
+    position: absolute;
+    width: 577px;
+height: 228px;
+left: 96px;
+top: 130px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+    }
+    .colortxt_m{
+        color: #D2AC47;
+    }
+    .line_m{
+        position: absolute;
+        width: 72px;
+        height: 2.47px;
+        left: 114px;
+        top: 500px;
+        background: #D2AC47;
+        border-radius: 2px;
+    }
+    .graytxt_m{
+        position: absolute;
+width: 423px;
+height: 634px;
+left: 218px;
+top: 488px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+letter-spacing: 0.02em;
+
+color: #757575;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    *{
+        margin: 0;
+    }
+    .imgtext_m{
+    width: 995px;
+    height: 474px;
+    background-image: url(file:///C:/Users/alloy/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/red_rockers_GOiTEENS/images/desktop/img_2.png);
+}  
+    .title_m{
+        position: absolute;
+        width: 425px;
+        height: 42px;
+        left: 259px;
+        top: 100px;
+        
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.01em;
+        
+        color: #D2AC47;
+    }
+    .plaintxt_m{
+        position: absolute;
+        width: 761px;
+        height: 198px;
+        left: 259px;
+        top: 176px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        /* or 167% */
+        
+        letter-spacing: 0.02em;
+        
+        color: #FFFFFF;
+        
+    }
+    .colortxt_m{
+        color: #D2AC47;
+    }
+    .line_m{
+        position: absolute;
+width: 72px;
+height: 2.15px;
+left: 348px;
+top: 590px;
+
+background: #D2AC47;
+border-radius: 2px;
+    }
+    .graytxt_m{
+        position: absolute;
+width: 671px;
+height: 442px;
+left: 452px;
+top: 574px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+letter-spacing: 0.02em;
+
+color: #757575;
+    }
+  }
