@@ -161,7 +161,7 @@ color: #000000;
 }
 
 .p_tarasik{
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -220,7 +220,7 @@ width: 406px;
 
 margin-left: 234px;
 margin-top: 180px;
-    font-family: Roboto;
+      font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -269,7 +269,7 @@ margin-left: 246px;
 margin-top: 0px;
 position: absolute;
 top: 102px;
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -306,7 +306,7 @@ color: #757575;
 .manzel_text_stick{
   margin-left: 20px;
   width: 280px;
-  height: 822px;
+  
   margin-top: 40px;
 }
 .manzel_stick{
@@ -319,7 +319,7 @@ color: #757575;
   margin-top: 20px;
 }
 .text1_manzel{
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -329,7 +329,7 @@ color: #757575;
   margin-top: 20px;
 }
 .text2_manzel{
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -357,7 +357,7 @@ color: #757575;
   }
   .manzel_text1 {
     display: block;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -367,14 +367,13 @@ color: #757575;
   }
   .manzel_text_stick{
     width: 511px;
-    height: 506px;
     margin-left: 129px;
   }
 
   .box_manzel{
     padding-top: 65px;
+    padding-bottom: 76px;
     background-color: #F7F7F7;
-    margin-top: 65px;
     width: 100%;
   }
 }
@@ -391,6 +390,8 @@ color: #757575;
   background-image: url(../images/mobile/img_3.png);
 }
 .text_blok{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   padding-top: 30px;
   position: absolute;
   left: 20px;
@@ -425,8 +426,8 @@ color: #757575;
 .js-button-campaign.button_login{
   position: absolute;
   text-align: center;
-  top: 279px;
-  left: 822px;
+  top: 213px;
+  left: 75px;
 }
 
 
@@ -461,11 +462,19 @@ color: #757575;
     top: 146px;
     
   }
+  .js-button-campaign.button_login{
+    top: 121px;
+    left: 389px;
+  }
 }
 
 
 
 @media screen and (min-width:1280px){
+  .js-button-campaign.button_login{
+    top: 280px;
+    left: 863px;
+  }
   .photo_manzel{
     width: 513px;
     background-image: url(../images/desktop/img.png);
@@ -488,7 +497,7 @@ color: #757575;
   }
   .manzel_text1 {
     display: block;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -498,7 +507,6 @@ color: #757575;
   }
   .manzel_text_stick{
     width: 379px;
-    height: 592px;
     margin-left: 102px;
 
   }
@@ -772,7 +780,7 @@ color: #757575;
 
 
 .text-item_dorosh{
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -1251,7 +1259,7 @@ div.sim-slider-arrow-right {
         
         width: 1123px;
         height: 442px;
-        font-family: Roboto;
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -1508,7 +1516,7 @@ color: rgba(255, 255, 255, 0.6);
 left: 20px;
 
 
-font-family: Roboto;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -1525,7 +1533,7 @@ color: rgba(255, 255, 255, 0.9);
   left: 20px;
   
   padding-top:30px;
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1547,7 +1555,7 @@ color: rgba(255, 255, 255, 0.9);
 left: 20px;
 
 padding-top: 25px;
-font-family: Roboto;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -1565,7 +1573,7 @@ left: 20px;
 
 padding-top: 80px;
 
-font-family: Roboto;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -1582,7 +1590,7 @@ left: 20px;
 
 padding-top: 100px;
 
-font-family: Roboto;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -1617,7 +1625,7 @@ border-radius: 2px;
   position: absolute;
   left: 20px;
   padding-top: 20px;
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1639,7 +1647,7 @@ color: grey;
 border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
 
-font-family: Roboto;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -1656,7 +1664,7 @@ margin-top:130px;
 border: black;
 background: #D2AC47;
 /* material shadow v2 */
-font-family: Roboto;
+font-family: 'Raleway', sans-serif;
 color: #ffffff;
 box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
 }
@@ -1671,7 +1679,7 @@ background: #111111;
 .third_yura h1{
   
 
-font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -1691,10 +1699,11 @@ color: rgba(255, 255, 255, 0.4);
   }
   
   .hr1_yura{
+    margin-top: 68px;
     position: absolute;
-width: 72px;
-height: 2px;
-left: 129px;
+    width: 72px;
+    height: 2px;
+    left: 129px;
     border: none;
     border-radius: 2px; 
     background-color: #D2AC47; 
@@ -1702,18 +1711,18 @@ left: 129px;
   }
   .h1_yura{
     position: absolute;
-width: 333px;
-left: 232px;
-top: 50px;
+    width: 333px;
+    left: 232px;
+    top: 50px;
 
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: 0.01em;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
 
-color: #212121;
+    color: #212121;
   }
   .p_yura{
     position: absolute;
@@ -1722,7 +1731,7 @@ width: 319px;
 left: 232px;
 top: 150px;
 
-font-family: Roboto;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -1765,7 +1774,7 @@ background: #292929;
     left: 175px;
   
   
-  font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10px;
@@ -1783,7 +1792,7 @@ background: #292929;
   .second_h1_yura{
     position: absolute;
       left: 129px;
-    font-family: Roboto;
+      font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -1798,7 +1807,7 @@ background: #292929;
   left: 129px;
     
     
-    font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1821,7 +1830,7 @@ background: #292929;
   
 padding-top: 0px;
   
-  font-family: Roboto;
+font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1838,7 +1847,7 @@ padding-top: 0px;
   
 padding-top: 40px;
   
-  font-family: Roboto;
+font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1852,7 +1861,7 @@ padding-top: 40px;
     position: absolute;
   left: 394px;
   padding-top: 60px;
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1886,7 +1895,7 @@ padding-top: 40px;
   left: 129px;
   
   padding-top: 70px;
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1907,7 +1916,7 @@ padding-top: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1924,7 +1933,7 @@ padding-top: 40px;
   border: black;
   background: #D2AC47;
   /* material shadow v2 */
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -1942,7 +1951,7 @@ padding-top: 40px;
   }
   
   .third_yura h1{
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -1993,7 +2002,7 @@ width: 800px;
 left: 246px;
 top: 150px;
 
-font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -2051,7 +2060,7 @@ left: 188px;
 left: 142px;
   
   
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -2067,7 +2076,7 @@ left: 142px;
 left: 142px;
     
     
-    font-family: Roboto;
+      font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -2082,7 +2091,7 @@ left: 142px;
     position: absolute;
   left: 397px;
   
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -2097,7 +2106,7 @@ left: 142px;
     position: absolute;
   left: 397px;
   
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -2113,7 +2122,7 @@ left: 142px;
   left: 397px;
   
   
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -2147,7 +2156,7 @@ left: 142px;
 left: 655px;
   top: 60px;
   
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -2169,7 +2178,7 @@ left: 655px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -2186,7 +2195,7 @@ left: 937px;
   border: black;
   background: #D2AC47;
   /* material shadow v2 */
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -2205,7 +2214,7 @@ top: 600px;
   }
   
   .third_yura h1{
-  font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
