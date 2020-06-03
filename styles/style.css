@@ -21,6 +21,8 @@ li {
   list-style: none;
 }
 
+
+/* dried elephant */
 .section{
   position: absolute;
   right: 0;
@@ -329,4 +331,4 @@ li {
   .div-links a:nth-child(4){
     width: 80px;
   }
-}
+} /* END of dried elephant */
