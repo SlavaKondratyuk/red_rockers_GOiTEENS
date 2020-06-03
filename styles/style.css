@@ -864,3 +864,200 @@ color: #757575;
 /*Maxym Dorosh end slyle*/
 
 
+/*мої стилі*/
+
+  
+.sim-slider {
+  max-width: 1000px;
+  min-width: 320px;
+  margin: 20px auto;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* General styles */
+.sim-slider {
+  position: relative;
+  z-index: 0;
+}
+
+.sim-slider-list {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 0;
+}
+
+.sim-slider-element {
+  width: 100%;
+  transition: linear 0.2s;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+/* Navigation item styles */
+.sim-slider-arrow-left,
+.sim-slider-arrow-right {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  position: absolute;
+  cursor: pointer;
+  z-index: 4;
+  background-color: #D2AC47;
+  border: 0.5px solid rgb(195, 161, 67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sim-slider-arrow-left:hover{
+  background-color: #ffffff;
+  border: 0.5px solid #f1f1f1;
+}
+
+.sim-slider-arrow-right:hover{
+  background-color: #ffffff;
+  border: 0.5px solid #f1f1f1;
+}
+
+.sim-slider-arrow-left:hover .icon-slider{
+  color: #000000;
+}
+.sim-slider-arrow-right:hover .icon-slider{
+  color: #000000;
+}
+
+
+.sim-slider-arrow-left i,
+.sim-slider-arrow-right i{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+div.sim-slider-arrow-left {
+  left: 0;
+}
+
+div.sim-slider-arrow-right {
+  left: 60px;
+}
+
+.sim-slider-element0{
+  background-image: url(../images/mobile/img1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 340px;
+}
+.sim-slider-element1{
+  background-image: url(../images/mobile/img1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 340px;
+}
+.sim-slider-element2{
+  background-image: url(../images/mobile/img4.png);
+  width: 280px;
+  height: 340px;
+}
+.sim-slider-element3{
+  background-image: url(../images/mobile/img2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 340px;
+}
+.sim-slider-element4{
+  background-image: url(../images/mobile/img3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 280px;
+  height: 340px;
+}
+
+@media screen and (min-device-width: 768px){
+  .sim-slider-element0{
+    background-image: url(../images/tablet/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 511px;
+    height: 340px;
+  }
+  .sim-slider-element1{
+    background-image: url(../images/tablet/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 511px;
+    height: 340px;
+  }
+  .sim-slider-element2{
+    background-image: url(../images/tablet/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 511px;
+    height: 340px;
+  }
+  .sim-slider-element3{
+    background-image: url(../images/tablet/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 511px;
+    height: 340px;
+  }
+  .sim-slider-element4{
+    background-image: url(../images/tablet/img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 511px;
+    height: 340px;
+  }
+}
+
+
+@media screen and (min-device-width: 1280px){
+  .sim-slider-element0{
+    background-image: url(../images/desktop/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 955px;
+    height: 430px;
+  }
+  .sim-slider-element1{
+    background-image: url(../images/desktop/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 955px;
+    height: 430px;
+  }
+  .sim-slider-element2{
+    background-image: url(../images/desktop/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 955px;
+    height: 430px;
+  }
+  .sim-slider-element3{
+    background-image: url(../images/desktop/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 955px;
+    height: 430px;
+  }
+  .sim-slider-element4{
+    background-image: url(../images/desktop/img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 955px;
+    height: 430px;
+  }
+}
+
+/*Nastya style end*/
