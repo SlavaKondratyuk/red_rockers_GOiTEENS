@@ -1986,7 +1986,7 @@ width: 892px;
 left: 246px;;
 top: 50px;
 
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -2227,3 +2227,315 @@ top: 600px;
   
   }
 }
+
+
+/*dried elephant*/
+.section{
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: 0.16s;
+  align-items: center;
+}
+.section-active{
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 150;
+  background-color: #f7f7ff;
+  transform: scaleX(1);
+  transition: 0.16s;
+  box-shadow: 0 4px 16px #000000;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-btn{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.div-links{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  position: absolute;
+  top: 90px;
+}
+.div-links a{
+  padding-bottom: 3px;
+  margin: 25px;
+  text-decoration: none;
+  color: #212121;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+.div-links a:hover{
+  transition: 0.3s;
+  border-bottom: 2px solid #D2AC47;
+  border-radius: 2px;
+}
+.div-links a:nth-child(1){
+  width: 68px;
+}
+.div-links a:nth-child(2){
+  width: 133px;
+}
+.div-links a:nth-child(3){
+  width: 170px;
+}
+.div-links a:nth-child(4){
+  width: 80px;
+}
+.burger-menu{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-social{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 130px;
+}
+.div-social a i{
+  font-size: 24px;
+  color: #212121;
+}
+.div-social a{
+  text-decoration: none;
+}
+.social-decoration{
+  height: 3px;
+  border-radius: 2px;
+  width: 30px;
+  background-color: #D2AC47;
+}
+.menu-logo{
+  width: 180px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+.menu-logo h2{
+  color: #D2AC47;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.menu-logo p{
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.menu-btn-active{
+  right: 0;
+  top: 0;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  border: 0;
+  outline: none;
+}
+.menu-btn-active i{
+  font-size: 28px;
+}
+.menu-btn i{
+  font-size: 28px;
+  transform: rotate(180deg);
+}
+.menu-btn{
+  right: 0;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  border: 0;
+  outline: none;
+}
+.gray{
+  display: none;
+}
+.gray-active{
+  display: block;
+  background-color: rgba(1, 1, 1, 0.424);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  z-index: 100;
+}
+
+
+@media screen and (min-device-width: 600px){
+  .section-active{
+    width: 285px;
+  }
+  .div-links a{
+    font-size: 22px;
+  }
+  .div-links a:nth-child(1){
+    width: 88px;
+  }
+  .div-links a:nth-child(2){
+    width: 162px;
+  }
+  .div-links a:nth-child(3){
+    width: 207px;
+  }
+  .div-links a:nth-child(4){
+    width: 97px;
+  }
+  .menu-logo h2{
+    font-size: 43px;
+  }
+  .menu-logo p{
+    font-size: 17px;
+  }
+  .menu-logo{
+    width: 253px;
+    margin-left: 20px;
+  }
+  .menu-btn-active i{
+    font-size: 35px;
+  }
+  .menu-btn i{
+    font-size: 35px;
+  }
+}
+
+
+@media screen and (min-device-width: 768px){
+  .section-active{
+    width: 397px;
+  }
+  .div-links a{
+    font-size: 25px;
+  }
+  .div-links a:nth-child(1){
+    width: 95px;
+  }
+  .div-links a:nth-child(2){
+    width: 184px;
+  }
+  .div-links a:nth-child(3){
+    width: 235px;
+  }
+  .div-links a:nth-child(4){
+    width: 113px;
+  }
+  .menu-logo h2{
+    font-size: 51px;
+  }
+  .menu-logo p{
+    font-size: 18px;
+  }
+  .menu-logo{
+    width: 277px;
+    margin-left: 20px;
+  }
+  .menu-btn-active i{
+    font-size: 41px;
+  }
+  .menu-btn i{
+    font-size: 41px;
+  }
+  .div-social{
+    width: 179px;
+  }
+  .div-social a i{
+    font-size: 34px;
+  }
+}
+
+
+@media screen and (min-device-width: 1280px){
+  .display-none{
+    display: none;
+  }
+  .section-active{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: initial;
+    background-color: #ffffff;
+    transform: none;
+    transition: 0;
+    box-shadow: none;
+    width: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+  }
+  .gray-active{
+    display: none;
+  }
+  .section{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: initial;
+    background-color: #ffffff;
+    transform: none;
+    transition: 0;
+    box-shadow: none;
+    width: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+  }
+  .div-links{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: initial;
+    margin-right: 10px;
+  }
+  .menu-logo h2{
+    font-size: 57px;
+  }
+  .menu-logo{
+    width: 312px;
+  }
+  .menu-logo p{
+    font-size: 21px;
+  }
+  .div-links a{
+    font-size: 18px;
+  }
+  .div-links a:nth-child(1){
+    width: 68px;
+  }
+  .div-links a:nth-child(2){
+    width: 133px;
+  }
+  .div-links a:nth-child(3){
+    width: 170px;
+  }
+  .div-links a:nth-child(4){
+    width: 80px;
+  }
+} /*dried elephant END*/
