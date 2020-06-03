@@ -1,14 +1,12 @@
-*{
-    margin: 0;
-}
+/* Misha */
 .imgtext_m{
     position: relative;
     width: 320px;
     height: 688px;
-    background-image:url(file:///C:/Users/alloy/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/red_rockers_GOiTEENS/images/mobile/img_2.png);
+    background-image:url(../images/mobile/img_2.png);
+    margin-bottom: 56px;
 }
 .title_m{
-    position: absolute;
     color: #D2AC47;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -21,8 +19,12 @@
     padding-top: 56px;
     padding-left:20px;
 }
+
+.txt_m{
+  position: relative;
+}
 .plaintxt_m{
-    position: absolute;
+    
     width: 280px;
     height: 528px;
     font-family: 'Roboto', sans-serif;
@@ -32,7 +34,6 @@
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    padding-top: 104px;
     padding-left:20px;
 }
 .colortxt_m{
@@ -48,7 +49,7 @@
     top: 90%;
 }
 .graytxt_m{
-    position: absolute;
+    
     width: 280px;
     height: 971px;
     font-family: 'Roboto', sans-serif;
@@ -59,17 +60,22 @@
     letter-spacing: 0.02em;
     color: #757575;  
     padding-left: 20px;
-    padding-top: 80px;
 }
 @media only screen and (min-width: 768px) {
+    .misha_global-wrapper{
+      max-width: 768px;
+    }
+
+
     .imgtext_m{
         margin: 0 auto;
         width: 688px;
         height: 423px;
-        background-image: url(file:///C:/Users/alloy/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/red_rockers_GOiTEENS/images/tablet/img_2.png);
+        background-image: url(../images/tablet/img_2.png);
+        margin-bottom: 65px;
     }  
     .title_m{
-        position: absolute;
+        
         width: 628px;
         height: 42px;
         font-family: 'Raleway', sans-serif;
@@ -83,7 +89,7 @@
         padding-top: 65px;
     }
     .plaintxt_m{
-        position: absolute;
+        
         width: 577px;
         height: 228px;
         font-family: 'Roboto', sans-serif;
@@ -94,7 +100,6 @@
         letter-spacing: 0.02em;
         color: #FFFFFF;
         padding-left: 56px;
-        padding-top: 130px;
     }
     .colortxt_m{
         color: #D2AC47;
@@ -106,10 +111,10 @@
         background: #D2AC47;
         border-radius: 2px;
         left: 114px;
-        top: 60%;
+        top: 10px;
     }
     .graytxt_m{
-        position: absolute;
+        
         width: 423px;
         height: 634px;
         font-family: 'Roboto', sans-serif;
@@ -120,10 +125,13 @@
         letter-spacing: 0.02em;
         color: #757575;
         padding-left: 218px;
-        padding-top: 8%;
     }
   }
   @media only screen and (min-width: 1280px) {
+
+    .misha_global-wrapper{
+      max-width: 1280px;
+    }
         .imgtext_m{
         margin: 0 auto;
         width: 995px;
@@ -132,10 +140,10 @@
         padding-top: 100px;
         background-repeat: no-repeat;
         background-position:center;
-        background-image: url(file:///C:/Users/alloy/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/GitHub/red_rockers_GOiTEENS/images/desktop/img_2.png);
+        background-image: url(../images/desktop/img_2.png);
 }  
     .title_m{
-        position: absolute;
+        
         width: 425px;
         height: 42px;
         font-family: 'Raleway', sans-serif;
@@ -147,7 +155,7 @@
         color: #D2AC47;
     }
     .plaintxt_m{
-        position: absolute;
+        
         width: 761px;
         height: 198px;
         font-family: 'Roboto', sans-serif;
@@ -162,16 +170,16 @@
         color: #D2AC47;
     }
     .line_m{
-        position: absolute;
+        
         width: 72px;
         height: 2.15px;
         background: #D2AC47;
         border-radius: 2px;
-        top: 75.5%;
+        top: 10px;
         left: 348px;
     }
     .graytxt_m{
-         position: absolute;
+        
         width: 671px;
         height: 442px;
         font-family: Roboto;
@@ -181,7 +189,6 @@
         line-height: 28px;
         letter-spacing: 0.02em;
         color: #757575;
-        padding-top:3%;
         padding-left: 452px;
     }
-  }
+  } /* Misha end*/
