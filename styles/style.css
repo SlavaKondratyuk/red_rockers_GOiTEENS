@@ -1436,3 +1436,785 @@ div.sim-slider-arrow-right {
   }
 }
 /*Oleh styles end*/
+
+/*Yura styles */
+footer{
+  position: relative;
+}
+.first_yura{
+  margin: 20px;
+}
+
+.hr1_yura{
+  border: none;
+  border-radius: 2px; 
+  background-color: #D2AC47; 
+  color: #D2AC47; 
+  height: 2px;
+  width: 72px;
+  position: relative;
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+.second_yura{
+  background:#292929;
+  height: 661px;
+  width: 100%;
+}
+
+.div1_yura{
+ 
+  padding: 50px;
+}
+.first_h1_yura{
+  position: absolute;
+
+left: 20px;
+
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 36px;
+letter-spacing: 0.025em;
+padding-top: 5px;
+color: #D2AC47;
+}
+
+.first_p_yura{
+position: absolute;
+width: 150px;
+left: 66px;
+
+padding-top: 12px;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.div2_yura{
+  padding-top: 30px;
+}
+.second_h1_yura{
+  position: absolute;
+left: 20px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.9);
+}
+
+.second_p_yura{
+  position: absolute;
+  width: 150px;
+  left: 20px;
+  
+  padding-top:30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  
+  letter-spacing: 0.03em;
+  
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.div3_yura{
+  margin-top: 150px;
+}
+
+.third_h1_yura{
+  position: absolute;
+
+left: 20px;
+
+padding-top: 25px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.9);
+}
+
+.third_p_yura{
+  position: absolute;
+
+left: 20px;
+
+padding-top: 80px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #D2AC47;
+}
+
+.third_p1_yura{
+  position: absolute;
+
+left: 20px;
+
+padding-top: 100px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+.div4_yura{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 294px;
+    color: white;
+}
+.hr2_yura{
+  border: none;
+position: absolute;
+width: 30px;
+height: 2px;
+left: 20px;
+
+
+background-color: #D2AC47;
+border-radius: 2px;
+}
+
+
+.four_h1_yura{
+  position: absolute;
+  left: 20px;
+  padding-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.div6_yura input{
+  position: absolute;
+width: 270px;
+height: 50px;
+left: 20px;
+
+margin-top:50px;
+background: #292929;
+color: grey;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+}
+
+
+.div7_yura input{
+  position: absolute;
+width: 200px;
+height: 50px;
+left: 20px;
+margin-top:130px;
+border: black;
+background: #D2AC47;
+/* material shadow v2 */
+font-family: Roboto;
+color: #ffffff;
+box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.third_yura{
+  position: absolute;
+width: 100%;
+
+background: #111111;
+}
+
+.third_yura h1{
+  
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 24px;
+/* or 200% */
+
+text-align: center;
+margin-top: 15px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.4);
+
+}
+
+@media screen and (min-width:768px){
+  .first_yura{
+    margin: 20px;
+  }
+  
+  .hr1_yura{
+    position: absolute;
+width: 72px;
+height: 2px;
+left: 129px;
+    border: none;
+    border-radius: 2px; 
+    background-color: #D2AC47; 
+    color: #D2AC47;      
+  }
+  .h1_yura{
+    position: absolute;
+width: 333px;
+left: 232px;
+top: 50px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.01em;
+
+color: #212121;
+  }
+  .p_yura{
+    position: absolute;
+width: 319px;
+
+left: 232px;
+top: 150px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: 0.02em;
+
+color: #212121;
+  }
+  .second_yura{
+    position: absolute;
+width: 100%;
+height: 454px;
+top: 300px;
+
+background: #292929;
+  }
+  
+  .div1_yura{
+    padding: 50px;
+  }
+  .first_h1_yura{
+    position: absolute;
+  left: 129px;;
+  
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 36px;
+  letter-spacing: 0.025em;
+  
+  color: #D2AC47;
+  }
+  
+  .first_p_yura{
+    position: absolute;
+    left: 175px;
+  
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .div2_yura{
+    padding-top: 30px;
+  }
+  
+  .second_h1_yura{
+    position: absolute;
+      left: 129px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .second_p_yura{
+    position: absolute;
+  left: 129px;
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .div3_yura{
+    margin-top: 0px;
+  }
+  .third_h1_yura{
+    position: absolute;
+
+
+  left: 394px;
+  
+padding-top: 0px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .third_p_yura{
+    position: absolute;
+  left: 394px;
+  
+padding-top: 40px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  
+  color: #D2AC47;
+  }
+  
+  .third_p1_yura{
+    position: absolute;
+  left: 394px;
+  padding-top: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  
+  color: rgba(255, 255, 255, 0.7);
+  }
+  .div4_yura{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-left: 450px;
+    margin-top: 107px;
+    color: white;
+}
+  .hr2_yura{
+    border: none;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: 394px;
+  background-color: #D2AC47;
+  border-radius: 2px;
+  }
+  
+  .four_h1_yura{
+    position: absolute;
+
+  height: 16px;
+  left: 129px;
+  
+  padding-top: 70px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .div6_yura input{
+    position: absolute;
+  height: 50px;
+  left: 129px;
+  margin-top: 100px;
+  background: #292929;
+  color: grey;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  }
+  
+  
+  .div7_yura input{
+    position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 411px;
+  margin-top: 100px;
+  border: black;
+  background: #D2AC47;
+  /* material shadow v2 */
+  font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+  
+  color: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
+  }
+  
+  .third_yura{
+    position: absolute;
+  width: 100%;
+  top: 750px;
+  background: #111111; 
+  }
+  
+  .third_yura h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+  
+  }
+}
+
+@media screen and (min-width:1280px){
+  .first_yura{
+    margin: 20px;
+  }
+  
+  .hr1_yura{
+    position: absolute;
+
+height: 2px;
+left: 143px;
+    border: none;
+    border-radius: 2px; 
+    background-color: #D2AC47; 
+    color: #D2AC47;      
+  }
+  .h1_yura{
+    position: absolute;
+width: 892px;
+left: 246px;;
+top: 50px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.01em;
+
+color: #212121;
+  }
+  .p_yura{
+    position: absolute;
+width: 800px;
+
+left: 246px;
+top: 150px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: 0.02em;
+
+color: #212121;
+  }
+  .second_yura{
+    position: absolute;
+width: 100%;
+height: 302px;
+top: 300px;
+
+background: #292929;
+  }
+  
+  .div1_yura{
+    padding: 50px;
+  }
+  .first_h1_yura{
+    position: absolute;
+left: 142px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 36px;
+  letter-spacing: 0.025em;
+  
+  color: #D2AC47;
+  }
+  
+  .first_p_yura{
+    position: absolute;
+left: 188px;
+  
+  
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: rgba(255, 255, 255, 0.6);
+  }
+  
+  
+  .second_h1_yura{
+    position: absolute;
+left: 142px;
+  
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .second_p_yura{
+    position: absolute;
+left: 142px;
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .third_h1_yura{
+    position: absolute;
+  left: 397px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .third_p_yura{
+    position: absolute;
+  left: 397px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  
+  color: #D2AC47;
+  }
+  
+  .third_p1_yura{
+    position: absolute;
+
+  left: 397px;
+  
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  
+  color: rgba(255, 255, 255, 0.7);
+  }
+  .div4_yura{
+    display: flex;
+    justify-content: space-around;
+    margin-left:450px;
+    margin-top: 105px;
+    color: white;   
+}
+/*asd*/
+
+  .hr2_yura{
+  border: none;
+  position: absolute;
+  height: 2px;
+  left: 397px;
+
+  background-color: #D2AC47;
+  border-radius: 2px;
+  }
+  
+  .four_h1_yura{
+    position: absolute;
+
+left: 655px;
+  top: 60px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .div6_yura input{
+    position: absolute;
+width: 270px;
+height: 50px;
+left: 655px;
+  top: 70px;
+  background: #292929;
+  color: grey;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  }
+  
+  
+  .div7_yura input{
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 937px;
+  top: 70px;
+  border: black;
+  background: #D2AC47;
+  /* material shadow v2 */
+  font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+  
+  color: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
+  }
+  
+  .third_yura{
+    position: absolute;
+width: 100%;
+top: 600px;
+  background: #111111;
+    
+  }
+  
+  .third_yura h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+  
+  }
+}
