@@ -818,6 +818,9 @@ color: #757575;
   .text-item_dorosh:last-child{
     margin-bottom: 33px;
   }
+  .js-button-campaign.know-more_button_dorosh{
+    margin-left: 0;
+  }
 }
 
 @media only screen and (min-width: 1280px){
