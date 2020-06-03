@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html, body, ul, ol, li, form, fieldset, legend {
@@ -22,12 +23,28 @@ li {
 }
 /*Maxym Dorosh start style*/
 
-
-.tekst{
-position: absolute;
-width: 482px;
-
+.study_wrapper_dorosh{
+  background-color: #f5f5f5;
+  padding: 104px 20px 56px 20px;
+  position: relative;
 }
+
+.image_wrapper_dorosh{
+  background-image: url("../images/mobile/Rectangle2.png");
+  width: 280px;
+  height: 280px;
+  margin-bottom: 20px;
+}
+
+.study-header_dorosh{
+  position: absolute;
+  left: 20px;
+  top: 56px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}
+
 
 .text-item_dorosh{
   font-family: Roboto;
@@ -37,7 +54,95 @@ width: 482px;
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-bottom: 20px;
 }
+
+.text-item_dorosh:last-child{
+  margin-bottom: 40px;
+}
+
+.know-more_button_dorosh{
+  width: 175px;
+  height: 52px;
+  background: #D2AC47;
+  /* material shadow v2 */
+  border: none;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px){
+  .study_wrapper_dorosh{
+    padding: 141px 129px 56px 129px;
+  }
+
+  .study-header_dorosh{
+    position: absolute;
+    left: 129px;
+    top: 65px;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+  }
+
+  .image_wrapper_dorosh{
+    background-image: url("../images/tablet/Rectangle2.png");
+    width: 511px;
+    margin-bottom: 31px;
+  }
+
+  .text_wrapper{
+    width: 511px;
+  }
+
+  .text-item_dorosh:last-child{
+    margin-bottom: 33px;
+  }
+}
+
+@media only screen and (min-width: 1280px){
+  .study_wrapper_dorosh{
+    padding: 100px 129px 56px 129px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image_wrapper_dorosh{
+    background-image: url("../images/desktop/Rectangle2.png");
+    width: 410px;
+    height: 542px;
+  }
+
+  .study-header_dorosh{
+    position: inherit;
+    margin-bottom: 34px;
+  }
+
+  .aditionall-container_dorosh{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .text_wrapper{
+    width: 482px;
+    margin-right: 103px;
+  }
+  .study_wrapper_dorosh{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .know-more_button_dorosh{
+    margin-top: -190px;
+  }
+}
+
 /*Maxym Dorosh end slyle*/
 
 
